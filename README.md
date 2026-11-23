@@ -1,4 +1,4 @@
-# FormUp — Football Coaching Android App
+# FormUp - Football Coaching Android App
 
 **Plan sessions. Prepare the squad. Review performance.**
 
