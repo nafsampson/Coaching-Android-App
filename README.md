@@ -131,8 +131,8 @@ app/src/test/       Unit tests
 
 ## Configuration and credentials
 
-`google-services.json` contains Firebase client identifiers and client API configuration. It is not a Firebase Admin service-account credential. Authentication, backend authorisation and database access controls protect application data.
+The Android app uses `google-services.json` to identify its Firebase project and configure client services. This file contains client configuration, not Firebase Admin credentials. Access to application data is protected through authentication, backend authorisation and database access controls.
 
-Never commit service-account JSON, private keys, signing keystores, passwords, deployment profiles or backend environment secrets. Keep backend credentials in the hosting environment and workflow secrets in GitHub Actions secrets.
+Sensitive credentials must remain outside source control, including service-account files, private keys, signing keystores, passwords and deployment credentials. Store backend secrets in the hosting environment and automation secrets in GitHub Actions secrets.
 
-For an independent deployment, use your own Firebase project and backend rather than relying on the existing hosted environment.
+To run an independent deployment of FormUp, configure your own Firebase project and backend using the setup instructions above.
