@@ -1,0 +1,5 @@
+<!-- Draws the FormUp logo. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="48dp" android:height="48dp" android:viewportWidth="52" android:viewportHeight="52">
+<path android:fillColor="#102326" android:pathData="M12,0 L40,0 Q52,0 52,12 L52,40 Q52,52 40,52 L12,52 Q0,52 0,40 L0,12 Q0,0 12,0 Z" />
+<path android:fillColor="#D5F66A" android:pathData="M12,13 L34,13 L30,20 L20,20 L18,25 L28,25 L24,32 L16,32 L12,42 L4,42 Z M33,25 L43,9 L47,25 L42,23 L34,37 L28,34 L36,21 Z" />
+</vector>

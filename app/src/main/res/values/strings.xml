@@ -1,0 +1,619 @@
+<!-- English app text. -->
+<resources>
+    <string name="app_name" translatable="false">FormUp</string>
+    <string name="default_web_client_id" translatable="false">273072042765-i9qlaip9o1il4djgtgufcjhui8o0pf9f.apps.googleusercontent.com</string>
+    <string name="season_stats">Season Stats</string>
+    <string name="recent_activity">Recent Activity</string>
+    <string name="no_matches_played">No matches played yet</string>
+    <string name="preferences">Preferences</string>
+
+    <string name="match_reminders">Match Reminders</string>
+    <string name="match_reminders_description">Push alerts 24h before kickoff</string>
+
+    <string name="weekly_summary">Weekly Summary</string>
+    <string name="weekly_summary_description">Squad performance digest every Monday</string>
+
+    <string name="team_information">Team Information</string>
+    <string name="sign_out">Sign Out</string>
+
+    <string name="profile_photo">Profile photo</string>
+    <string name="coach">Coach</string>
+    <string name="edit_profile">Edit Profile</string>
+
+    <string name="language">Language</string>
+    <string name="app_notification_language">App and notification language</string>
+
+    <string name="edit_team_information">Edit team information</string>
+    <string name="squad">Squad</string>
+
+    <string name="dark_mode">Dark Mode</string>
+    <string name="dark_mode_description">Use dark colours throughout FormUp</string>
+
+    <string name="goals">Goals</string>
+    <string name="assists">Assists</string>
+    <string name="matches">Matches</string>
+    <string name="wins">Wins</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_calendar">Calendar</string>
+    <string name="nav_team">Team</string>
+    <string name="nav_stats">Stats</string>
+    <string name="nav_profile">Profile</string>
+    <string name="notifications">Notifications</string>
+
+    <!-- Home screen -->
+    <string name="welcome_back">Welcome back, %1$s</string>
+    <string name="home_prompt_next">Next up: %1$s on %2$s. Squad availability: %3$s.</string>
+    <string name="home_prompt_empty">No fixtures scheduled.</string>
+    <string name="availability_healthy">healthy</string>
+    <string name="availability_thin">thin</string>
+
+    <!-- Next match -->
+    <string name="next_match_badge">NEXT MATCH</string>
+    <string name="kickoff_time">%1$s Kickoff</string>
+    <string name="match_details">Match Details</string>
+    <string name="lineup">Lineup</string>
+    <string name="no_upcoming_match">No upcoming match. Add one from the Calendar tab.</string>
+
+    <!-- Quick actions -->
+    <string name="match_attendance">Match Attendance</string>
+    <string name="selection">Selection</string>
+
+    <!-- Availability -->
+    <string name="match_availability">Match Availability</string>
+    <string name="about_availability">About availability</string>
+    <string name="available_players">Available Players</string>
+    <string name="fit">Fit</string>
+    <string name="doubtful">Doubt</string>
+    <string name="out">Out</string>
+    <string name="availability_legend">%1$s (%2$d)</string>
+
+    <!-- Last match -->
+    <string name="last_match">Last Match</string>
+    <string name="view_all">View All</string>
+    <string name="no_match_played">No match played yet. Log a result from the Stats tab.</string>
+    <string name="clean_sheet">Clean Sheet</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Availability dialog -->
+    <string name="view_squad">View squad</string>
+    <string name="close">Close</string>
+    <string name="squad_availability_title">Squad availability</string>
+    <string name="squad_availability_message">%1$d fit, %2$d doubtful and %3$d out of %4$d players for the next match. Change a player\'s availability from the squad screen.</string>
+    <!-- Accessibility -->
+    <string name="formup_logo_description">FormUp Logo</string>
+
+    <!-- General actions -->
+    <string name="ui_back">Back</string>
+    <string name="ui_cancel">Cancel</string>
+    <string name="ui_ok">OK</string>
+    <string name="ui_delete">Delete</string>
+
+    <!-- Calendar -->
+    <string name="calendar_previous_month">Previous month</string>
+    <string name="calendar_next_month">Next month</string>
+    <string name="calendar_add_event">Add Match or Training</string>
+    <string name="calendar_upcoming">Upcoming</string>
+    <string name="calendar_empty">Nothing scheduled yet. Add a match or training session above.</string>
+    <string name="calendar_opponent">vs. %1$s</string>
+    <string name="calendar_view_match">View Match Details</string>
+    <string name="calendar_edit_lineup">Edit Lineup</string>
+    <string name="calendar_training">TRAINING</string>
+    <string name="calendar_record_attendance">Record Attendance</string>
+    <string name="calendar_edit_item">Edit %1$s</string>
+    <string name="calendar_delete_question">Delete this %1$s?</string>
+    <string name="calendar_delete_undo">This cannot be undone.</string>
+    <string name="calendar_match_word">match</string>
+    <string name="calendar_session_word">session</string>
+
+    <!-- Calendar weekday abbreviations -->
+    <string name="calendar_sunday">Su</string>
+    <string name="calendar_monday">Mo</string>
+    <string name="calendar_tuesday">Tu</string>
+    <string name="calendar_wednesday">We</string>
+    <string name="calendar_thursday">Th</string>
+    <string name="calendar_friday">Fr</string>
+    <string name="calendar_saturday">Sa</string>
+
+    <!-- Manage Event -->
+    <string name="event_form_edit_title">Edit Event</string>
+    <string name="event_form_create_title">Create Event</string>
+    <string name="event_form_opponent">Opponent</string>
+    <string name="event_form_opponent_placeholder">Enter opponent name</string>
+    <string name="event_form_venue">Venue</string>
+    <string name="event_form_home">Home</string>
+    <string name="event_form_away">Away</string>
+    <string name="event_form_match_date">Match Date</string>
+    <string name="event_form_session_date">Session Date</string>
+    <string name="event_form_select_date">Select date</string>
+    <string name="event_form_kickoff">Kickoff Time</string>
+    <string name="event_form_session_time">Session Time</string>
+    <string name="event_form_select_time">Select time</string>
+    <string name="event_form_notes">Notes</string>
+    <string name="event_form_optional_notes">Optional notes</string>
+    <string name="event_form_training">Training</string>
+    <string name="event_form_match">Match</string>
+    <string name="event_form_saving">Saving...</string>
+    <string name="event_form_save_changes">Save Changes</string>
+    <string name="event_form_create_match">Create Match</string>
+    <string name="event_form_create_training">Create Training</string>
+
+    <!-- Manage Event validation -->
+    <string name="event_error_session_date">Select a session date</string>
+    <string name="event_error_session_time">Select a session time</string>
+    <string name="event_error_match_date">Select a match date</string>
+    <string name="event_error_kickoff">Select a kickoff time</string>
+    <string name="event_error_opponent">Enter the opponent</string>
+    <string name="event_error_invalid_date">Invalid date or time</string>
+
+    <!-- Attendance -->
+    <string name="att_edit_event">Edit Event</string>
+    <string name="att_squad_status">SQUAD STATUS</string>
+    <string name="att_present">Present</string>
+    <string name="att_absent">Absent</string>
+    <string name="att_not_recorded">Not Recorded</string>
+    <string name="att_roster_details">Roster Details</string>
+    <string name="att_mark_all_present">Mark All Present</string>
+    <string name="att_status_count">%1$s (%2$d)</string>
+    <string name="att_mark_player_present">Mark %1$s present</string>
+    <string name="att_mark_player_absent">Mark %1$s absent</string>
+    <string name="att_no_excuse">NO EXCUSE</string>
+    <string name="att_match_attendance">Match attendance</string>
+
+    <!-- Match Details -->
+    <string name="details_match_title">Match vs. %1$s</string>
+    <string name="details_date_time">Date &amp; Time</string>
+    <string name="details_location">Location</string>
+    <string name="details_squad_availability">Squad Availability</string>
+    <string name="details_fit">Fit</string>
+    <string name="details_out">Out</string>
+    <string name="details_doubtful">Doubtful</string>
+    <string name="details_starting_xi">Starting XI</string>
+    <string name="details_substitutes">Substitutes</string>
+    <string name="details_no_substitutes">No substitutes selected</string>
+    <string name="details_no_lineup">No lineup selected</string>
+    <string name="details_players_selected">%1$d/11 selected</string>
+
+    <!-- Team screen -->
+    <string name="team_search_players">Search players...</string>
+    <string name="team_player_squad">Player Squad</string>
+    <string name="team_players_count">%1$d PLAYERS</string>
+    <string name="team_edit_remove_hint">Tap a player to edit or remove them</string>
+    <string name="team_no_players">No players yet. Tap Add Player to build your squad.</string>
+    <string name="team_no_search_results">No players match this search</string>
+    <string name="team_add_player">Add Player</string>
+    <string name="team_edit">Edit</string>
+    <string name="team_remove">Remove</string>
+    <string name="team_remove_player_title">Remove %1$s?</string>
+    <string name="team_remove_player_message">This player will be removed from your squad.</string>
+    <string name="team_squad_overview">Squad Overview</string>
+    <string name="team_total_players">TOTAL PLAYERS</string>
+
+    <!-- Player form -->
+    <string name="player_form_add_title">Add Player</string>
+    <string name="player_form_edit_title">Edit Player</string>
+    <string name="player_form_full_name">Full Name</string>
+    <string name="player_form_name_placeholder">Enter player name</string>
+    <string name="player_form_date_of_birth">Date of Birth</string>
+    <string name="player_form_position">Position</string>
+    <string name="player_form_name_error">Enter the player name</string>
+    <string name="player_form_position_error">Pick a position</string>
+    <string name="player_form_select_position">Select Position</string>
+    <string name="player_form_saving">Saving...</string>
+    <string name="player_form_save_changes">Save Changes</string>
+    <string name="player_form_add_to_squad">Add Player to Squad</string>
+
+    <!-- Player positions -->
+    <string name="player_position_goalkeeper">Goalkeeper</string>
+    <string name="player_position_defender">Defender</string>
+    <string name="player_position_midfielder">Midfielder</string>
+    <string name="player_position_forward">Forward</string>
+
+    <!-- Lineup screen -->
+    <string name="lineup_title">Lineup vs. %1$s</string>
+    <string name="lineup_starting_xi">Starting XI</string>
+    <string name="lineup_count_summary">%1$d / 11 starting • %2$d subs</string>
+    <string name="lineup_instructions">Tap a player to cycle Starting, Sub, Not selected. Tap the status to change availability.</string>
+    <string name="lineup_mark_all_fit">Mark All Fit</string>
+    <string name="lineup_clear">Clear</string>
+    <string name="lineup_selection_starting">Starting</string>
+    <string name="lineup_selection_substitute">Substitute</string>
+    <string name="lineup_selection_not_selected">Not selected</string>
+    <string name="lineup_sub_short">SUB</string>
+    <string name="lineup_save">Save Lineup</string>
+    <string name="lineup_select_more">Select %1$d More Starters</string>
+
+    <!-- Lineup availability -->
+    <string name="lineup_status_fit">Fit</string>
+    <string name="lineup_status_doubtful">Doubtful</string>
+    <string name="lineup_status_out">Out</string>
+
+
+    <!-- Statistics overview -->
+    <string name="stats_team_analytics">Team Analytics</string>
+    <string name="stats_your_squad">Your squad</string>
+    <string name="stats_input">Input Stats</string>
+    <string name="stats_export_pdf">Export Season PDF</string>
+    <string name="stats_top_performers">Top Performers</string>
+    <string name="stats_no_goals_recorded">No goals recorded yet</string>
+    <string name="stats_no_assists_recorded">No assists recorded yet</string>
+    <string name="stats_no_match_result">No match played yet. Log a result with Input Stats.</string>
+    <string name="stats_last_match_analysis">Last Match Analysis vs. %1$s (%2$s)</string>
+    <string name="stats_view_full_match_report">View Full Match Report</string>
+    <string name="stats_matches_count">%1$d Matches</string>
+    <string name="stats_performer_value">%1$s %2$s</string>
+
+    <!-- Season metric labels -->
+    <string name="stats_win_rate">Win Rate</string>
+    <string name="stats_goals_per_match">Goals / Match</string>
+    <string name="stats_clean_sheets">Clean Sheets</string>
+    <string name="stats_clean_sheets_value">%1$s / %2$s Games</string>
+    <string name="stats_conceded_per_match">Conceded / Match</string>
+    <string name="stats_goals_scored">Goals Scored</string>
+    <string name="stats_goals_conceded">Goals Conceded</string>
+
+    <!-- Statistics input -->
+    <string name="stats_input_title">Stats Input</string>
+    <string name="stats_select_match">Select match</string>
+    <string name="stats_match">Match</string>
+    <string name="stats_player">Player</string>
+    <string name="stats_minutes_short">Min</string>
+    <string name="stats_rating">Rating</string>
+    <string name="stats_save_statistics">Save Statistics</string>
+    <string name="stats_decrease_score">Decrease %1$s score</string>
+    <string name="stats_increase_score">Increase %1$s score</string>
+    <string name="stats_badge_no_matches">NO MATCHES</string>
+    <string name="stats_badge_not_played">NOT PLAYED</string>
+    <string name="stats_badge_full_time">FT %1$s</string>
+    <string name="stats_opponent">vs. %1$s</string>
+
+    <!-- Match report -->
+    <string name="stats_match_report">Match Report</string>
+    <string name="stats_full_time">FULL TIME</string>
+    <string name="stats_scheduled">SCHEDULED</string>
+    <string name="stats_overview">Overview</string>
+    <string name="stats_top_performer">Top Performer</string>
+    <string name="stats_minutes">Minutes</string>
+    <string name="stats_player_ratings">Player Ratings</string>
+    <string name="stats_no_player_stats">No player stats recorded for this match yet.</string>
+    <string name="stats_man_of_match">Man of the match</string>
+    <string name="stats_no_stats_logged">NO STATS LOGGED</string>
+
+    <!-- ViewModel and app feedback -->
+    <string name="msg_load_data_failed">Could not load FormUp data</string>
+
+    <!-- Player actions -->
+    <string name="msg_player_added">%1$s added to the roster</string>
+    <string name="msg_player_add_failed">Could not add player</string>
+    <string name="msg_player_updated">Player updated</string>
+    <string name="msg_player_update_failed">Could not update player</string>
+    <string name="msg_player_removed">Player removed</string>
+    <string name="msg_player_remove_failed">Could not remove player</string>
+    <string name="msg_player_fallback">Player</string>
+
+    <!-- Match actions -->
+    <string name="msg_match_added">Match added</string>
+    <string name="msg_match_add_failed">Could not add match</string>
+    <string name="msg_match_updated">Match updated</string>
+    <string name="msg_match_update_failed">Could not update match</string>
+    <string name="msg_match_deleted">Match deleted</string>
+    <string name="msg_match_delete_failed">Could not delete match</string>
+
+    <!-- Training session actions -->
+    <string name="msg_session_added">Session added</string>
+    <string name="msg_session_add_failed">Could not add session</string>
+    <string name="msg_session_updated">Session updated</string>
+    <string name="msg_session_update_failed">Could not update session</string>
+    <string name="msg_session_deleted">Session deleted</string>
+    <string name="msg_session_delete_failed">Could not delete session</string>
+
+    <!-- Attendance feedback -->
+    <string name="msg_attendance_load_failed">Could not load attendance</string>
+    <string name="msg_attendance_save_failed">Attendance could not be saved. Your edits are still on this screen; tap Confirm attendance to try again.</string>
+    <string name="msg_player_marked_present">%1$s marked present</string>
+    <string name="msg_player_marked_absent">%1$s marked absent</string>
+    <string name="msg_player_marked_absent_no_excuse">%1$s marked absent without an excuse</string>
+    <string name="msg_player_attendance_updated">%1$s attendance updated</string>
+    <string name="msg_everyone_marked_present">Everyone marked present</string>
+
+    <!-- Lineup feedback -->
+    <string name="msg_lineup_load_failed">Could not load lineup</string>
+    <string name="msg_starting_xi_full">Starting XI is full</string>
+    <string name="msg_player_marked_out">%1$s is marked unavailable</string>
+    <string name="msg_lineup_cleared">Lineup cleared</string>
+    <string name="msg_select_exactly_11">Select exactly 11 starting players</string>
+    <string name="msg_lineup_saved">Lineup saved</string>
+    <string name="msg_lineup_save_failed">Your lineup could not be saved. Please try again.</string>
+
+    <!-- Availability feedback -->
+    <string name="msg_availability_save_failed">Availability could not be saved. Please try again.</string>
+    <string name="msg_everyone_marked_fit">Everyone marked fit</string>
+
+    <!-- Statistics feedback -->
+    <string name="msg_statistics_saved">Statistics saved</string>
+    <string name="msg_statistics_save_failed">Your match statistics could not be saved. Please try again.</string>
+    <string name="msg_exporting_matches_pdf">Exporting %1$d matches to PDF...</string>
+
+    <!-- Profile and language feedback -->
+    <string name="msg_language_set">Language set to %1$s</string>
+    <string name="msg_language_update_failed">Could not update language</string>
+    <string name="msg_profile_updated">Profile updated</string>
+    <string name="msg_profile_update_failed">Your profile changes could not be saved. Please try again.</string>
+    <string name="msg_signed_out">Signed out</string>
+
+    <!-- Authentication and onboarding -->
+    <string name="msg_sign_in_failed">Sign-in failed. Please check your details and try again.</string>
+    <string name="msg_forgot_password_instruction">Enter your email first, then use password reset.</string>
+    <string name="msg_team_save_failed">Could not save team</string>
+
+    <!-- Navigation feedback -->
+    <string name="msg_no_upcoming_fixture">No upcoming fixture</string>
+    <string name="msg_no_fixtures_to_log">No fixtures to log</string>
+    <string name="msg_no_match_played">No match played yet</string>
+    <!-- Additional screens: lineups, biometrics, account and notifications -->
+    <string name="loc_biometric_login">Biometric Login</string>
+    <string name="loc_biometric_description">Use fingerprint or face recognition to unlock FormUp</string>
+    <string name="loc_app_locked">FormUp is locked</string>
+    <string name="loc_verify_identity">Verify your identity to access your coach account.</string>
+    <string name="loc_verify_identity_short">Verify your identity to access your coach account</string>
+    <string name="loc_unlock_biometrics">Unlock with biometrics</string>
+    <string name="loc_use_password">Use password instead</string>
+    <string name="loc_unlock_formup">Unlock FormUp</string>
+    <string name="loc_use_fingerprint">Use your fingerprint or face recognition.</string>
+    <string name="loc_please_sign_in">Please sign in again.</string>
+    <string name="loc_bio_disabled">Biometric login disabled.</string>
+    <string name="loc_bio_enabled">Biometric login enabled.</string>
+    <string name="loc_auth_error">Authentication error.</string>
+    <string name="loc_bio_unavailable">Biometric authentication is unavailable. Use your password to sign in.</string>
+    <string name="loc_bio_cannot_start">Unable to start biometric authentication.</string>
+    <string name="loc_coach_protected">Your coach account is protected.</string>
+    <string name="loc_password_login_success">Signed in successfully using your password.</string>
+    <string name="loc_pdf_failed">Could not create or open the PDF</string>
+    <string name="loc_lineup_vs">Lineup vs. %1$s</string>
+    <string name="loc_save_match_lineup">Save Match Lineup</string>
+    <string name="loc_starters_count">%1$d / 11 starters</string>
+    <string name="loc_choose_formation">Choose a formation</string>
+    <string name="loc_no_formations">No saved formations yet</string>
+    <string name="loc_select_11_starters">Return to squad selection and select exactly 11 starters.</string>
+    <string name="loc_choose_formation_hint">Choose a formation to position your starting XI.</string>
+    <string name="loc_save_as_formation">Save as Formation</string>
+    <string name="loc_save_formation_changes">Save Formation Changes</string>
+    <string name="loc_substitutes_count">Substitutes (%1$d)</string>
+    <string name="loc_no_substitutes">No substitutes selected.</string>
+    <string name="loc_save_formation">Save Formation</string>
+    <string name="loc_update_formation">Update Formation</string>
+    <string name="loc_formation_name">Formation name</string>
+    <string name="loc_formation_code">Formation code (e.g. 4-3-3)</string>
+    <string name="loc_delete_formation">Delete formation?</string>
+    <string name="loc_delete_formation_confirm">Delete %1$s from your saved formations?</string>
+    <string name="loc_save">Save</string>
+    <string name="loc_build_lineup">Build Lineup</string>
+    <string name="loc_lineup_formation">Formation</string>
+    <string name="loc_lineup_squad_help">Tap a player to cycle between Starting, Substitute and Not Selected.</string>
+    <string name="loc_lineup_count_short">%1$d / 11 Starting • %2$d Substitute</string>
+    <string name="loc_welcome_back">Welcome Back</string>
+    <string name="loc_signin_prompt">Sign in to your account</string>
+    <string name="loc_email_address">Email Address</string>
+    <string name="loc_password">Password</string>
+    <string name="loc_forgot_password">Forgot Password?</string>
+    <string name="loc_sign_in">Sign In</string>
+    <string name="loc_or_continue_with">or continue with</string>
+    <string name="loc_no_account">Don’t have an account? </string>
+    <string name="loc_sign_up">Sign Up</string>
+    <string name="loc_signup_prompt">Elevate your game. Sign up to get started.</string>
+    <string name="loc_full_name">Full Name</string>
+    <string name="loc_password_min">Must be at least 8 characters long.</string>
+    <string name="loc_create_account">Create Account</string>
+    <string name="loc_signup_google">Sign up with Google</string>
+    <string name="loc_have_account">Already have an account? </string>
+    <string name="loc_log_in">Log In</string>
+    <string name="loc_create_team">Create Team</string>
+    <string name="loc_your_team">Your Team</string>
+    <string name="loc_team_name">Team Name</string>
+    <string name="loc_age_group">Age Group</string>
+    <string name="loc_age_group_select">Select Age Group...</string>
+    <string name="loc_team_name_hint">Enter your team name</string>
+    <string name="loc_team_name_required">Enter a team name</string>
+    <string name="loc_age_group_required">Select an age group</string>
+    <string name="loc_edit_profile">Edit Profile</string>
+    <string name="loc_export_pdf">Export PDF report</string>
+    <string name="loc_mark_all_read">Mark all as read</string>
+    <string name="loc_clear">Clear</string>
+    <string name="loc_done">Done</string>
+    <string name="loc_player_out">%1$s is marked Out and cannot be selected</string>
+    <string name="loc_formation_invalid">This formation does not contain 11 positions</string>
+    <string name="loc_formation_applied">%1$s applied</string>
+    <string name="loc_formation_load_failed">Your saved formations could not load. Please try again.</string>
+    <string name="loc_enter_formation">Enter a formation name and formation code</string>
+    <string name="loc_formation_11">A formation must contain exactly 11 positions</string>
+    <string name="loc_formation_saved">Formation saved</string>
+    <string name="loc_formation_save_failed">Your formation could not be saved. Please try again.</string>
+    <string name="loc_formation_deleted">Formation deleted</string>
+    <string name="loc_formation_delete_failed">Your formation could not be removed. Please try again.</string>
+    <string name="loc_need_11_starters">Select exactly 11 starting players</string>
+    <string name="loc_out_replace">%1$s is marked Out. Replace them before saving</string>
+    <string name="loc_all_read">All notifications marked as read</string>
+    <string name="loc_reminders_on">Match reminders on</string>
+    <string name="loc_reminders_off">Match reminders off</string>
+    <string name="loc_weekly_on">Weekly summary on</string>
+    <string name="loc_weekly_off">Weekly summary off</string>
+    <string name="loc_password_show">Show password</string>
+    <string name="loc_password_hide">Hide password</string>
+    <string name="loc_channel_updates">Team updates</string>
+    <string name="loc_channel_updates_desc">Match reminders, attendance reminders, fitness and stats updates</string>
+    <string name="loc_channel_sync">Saved changes</string>
+    <string name="loc_channel_sync_desc">Updates about changes saved while you are offline</string>
+    <string name="loc_back_online">Changes saved</string>
+    <string name="loc_sync_one">Your saved change is now up to date.</string>
+    <string name="loc_sync_many">%1$d saved changes are now up to date.</string>
+    <string name="loc_match_attendance">Match attendance</string>
+    <string name="loc_training_session">Training Session</string>
+    <string name="loc_venue_unset">Venue not set</string>
+    <string name="loc_match_vs">Match vs. %1$s</string>
+    <string name="loc_match_date_title">Match vs. %1$s</string>
+    <string name="loc_game_count">%1$d / %2$d Games</string>
+    <string name="loc_no_match_report">No completed matches to export yet</string>
+    <string name="loc_match_not_played_export">That match hasn\'t been played yet</string>
+    <string name="full_name">Full name</string>
+    <string name="team_name">Team name</string>
+    <string name="age_group_label">Age group (e.g. U17)</string>
+    <string name="error_enter_name">Enter your name</string>
+    <string name="error_enter_team_name">Enter the team name</string>
+    <string name="error_enter_age_group">Enter an age group number, e.g. U17</string>
+    <string name="att_load_before_edit">Load attendance online once before editing it offline.</string>
+    <string name="msg_saved_pending_sync">Saved on this phone. Waiting to update your account.</string>
+    <string name="msg_refresh_after_save_failed">Your changes were saved, but the latest details could not load. Check your connection and reopen FormUp.</string>
+    <string name="sync_retry">Try again</string>
+    <string name="sync_review">Review saved changes</string>
+    <string name="sync_sign_out">Sign out</string>
+    <string name="sync_change">Saved change</string>
+    <string name="sync_failed">%1$d changes could not be updated. Your saved edits are still on this phone.</string>
+    <string name="calendar_events_for_day">Events for day %1$d</string>
+    <string name="mod_brand_tagline">Your team. In formation.</string>
+    <string name="mod_unread_notifications">Notifications, unread updates</string>
+    <string name="mod_workspace">COACH WORKSPACE</string>
+    <string name="mod_matchday">MATCHDAY</string>
+    <string name="mod_your_team">Your team</string>
+    <string name="mod_vs_team">vs %1$s</string>
+    <string name="mod_versus">vs</string>
+    <string name="mod_prepare_lineup">Prepare lineup</string>
+    <string name="mod_empty_fixture_title">Ready for your next match?</string>
+    <string name="mod_empty_fixture_body">Add your next fixture to organise your lineup and attendance.</string>
+    <string name="mod_open_calendar">Open calendar</string>
+    <string name="mod_attendance_short">Attendance</string>
+    <string name="mod_next_fixture_status">Availability for the next fixture</string>
+    <string name="mod_availability_info">About squad availability</string>
+    <string name="mod_match_report">Match report</string>
+    <string name="mod_full_time">Full time</string>
+    <string name="mod_all_players">All players</string>
+    <string name="mod_squad_title">Your squad</string>
+    <string name="mod_squad_subtitle">The people behind your next performance.</string>
+    <string name="mod_registered">Registered</string>
+    <string name="mod_clear_search">Clear search</string>
+    <string name="mod_reset_filters">Reset filters</string>
+    <string name="mod_match_centre">Match centre</string>
+    <string name="mod_stats_intro">Record the result. Recognise every contribution.</string>
+    <string name="mod_choose_fixture">Choose a fixture</string>
+    <string name="mod_score_hint">The team score can include own goals. Adjust it independently if needed.</string>
+    <string name="mod_player_performance">Player performance</string>
+    <string name="mod_minutes">Minutes</string>
+    <string name="mod_rating">Rating</string>
+    <string name="mod_player_summary">%1$d goals · %2$d assists · %3$d min</string>
+    <string name="mod_collapse_stats">Collapse statistics for %1$s</string>
+    <string name="mod_expand_stats">Edit statistics for %1$s</string>
+    <string name="mod_decrease">Decrease %1$s</string>
+    <string name="mod_increase">Increase %1$s</string>
+    <string name="mod_export_lineup">Export lineup PDF</string>
+    <string name="mod_unknown_date">Date unavailable</string>
+    <string name="mod_pitch_help">Drag a shirt, or select a player and use the sliders. Full names are listed below.</string>
+    <string name="mod_move_player">Position %1$s on the pitch</string>
+    <string name="mod_move_left">Move left</string>
+    <string name="mod_move_right">Move right</string>
+    <string name="mod_move_up">Move towards the attacking goal</string>
+    <string name="mod_move_down">Move towards your own goal</string>
+    <string name="mod_pitch_horizontal">Across the pitch</string>
+    <string name="mod_pitch_vertical">Along the pitch</string>
+    <string name="mod_horizontal_for">Horizontal position for %1$s</string>
+    <string name="mod_vertical_for">Vertical position for %1$s</string>
+    <string name="mod_email_required">Enter your email address</string>
+    <string name="mod_email_invalid">Enter a valid email address</string>
+    <string name="mod_password_required">Enter your password</string>
+    <string name="mod_name_required">Enter your full name</string>
+    <string name="mod_password_length">Use at least 8 characters</string>
+    <string name="mod_preparing_pdf">Preparing your PDF…</string>
+    <string name="mod_pdf_no_viewer">PDF saved. Install a PDF viewer to open it on this phone.</string>
+    <string name="mod_offline_pending">No connection. %1$d changes are safe on this phone.</string>
+    <string name="mod_online_pending">%1$d saved changes are waiting to update.</string>
+    <string name="mod_offline_saved">No connection. Showing your last saved data.</string>
+    <string name="mod_cached_data">Showing your last saved data.</string>
+    <string name="mod_sync_auth">Sign in again, then try sending this saved change again.</string>
+    <string name="mod_sync_rejected">This change was not saved to your account. Review it and try again.</string>
+    <string name="mod_notifications_empty">You are all caught up</string>
+    <string name="mod_notifications_empty_body">Team updates and reminders will appear here.</string>
+    <string name="mod_notifications_new">New</string>
+    <string name="mod_notifications_earlier">Earlier</string>
+    <string name="mod_just_now">Just now</string>
+    <string name="mod_minutes_ago">%1$d min ago</string>
+    <string name="mod_hours_ago">%1$d h ago</string>
+    <string name="mod_days_ago">%1$d days ago</string>
+    <string name="mod_update_title">FormUp update</string>
+    <string name="mod_update_body">Open FormUp to review your schedule.</string>
+    <string name="mod_calendar_day">Day %1$d, %2$s</string>
+    <string name="mod_calendar_match">match scheduled</string>
+    <string name="mod_calendar_training">training scheduled</string>
+    <string name="mod_calendar_both">match and training scheduled</string>
+    <string name="mod_calendar_none">no events</string>
+    <string name="mod_no_performers">Record player statistics to see your leaders.</string>
+    <string name="mod_record_result">Record a result</string>
+    <string name="mod_season_export">Export season PDF</string>
+    <string name="mod_form_attacking">Attacking</string>
+    <string name="mod_form_classic">Classic</string>
+    <string name="mod_form_balanced">Balanced</string>
+    <string name="pdf_page">Page</string>
+    <string name="pdf_prepared">Prepared with FormUp</string>
+    <string name="pdf_no_records">No records to display.</string>
+    <string name="pdf_continued">continued</string>
+    <string name="pdf_lineup_title">Matchday lineup</string>
+    <string name="pdf_match_title">Match report</string>
+    <string name="pdf_season_title">Season review</string>
+    <string name="pdf_number">No.</string>
+    <string name="pdf_player">Player</string>
+    <string name="pdf_position">Position</string>
+    <string name="pdf_substitutes">Substitutes</string>
+    <string name="pdf_goals">Goals</string>
+    <string name="pdf_assists">Assists</string>
+    <string name="pdf_minutes">Minutes</string>
+    <string name="pdf_rating">Rating</string>
+    <string name="pdf_result">Result</string>
+    <string name="pdf_conceded">Conceded</string>
+    <string name="pdf_players">Players</string>
+    <string name="pdf_tactical_board">Tactical board</string>
+    <string name="pdf_default_positions">Some players have no saved coordinates. A default 4-3-3 layout is shown; the numbered roster lists every full name.</string>
+    <string name="pdf_matches">Matches</string>
+    <string name="pdf_wins">Wins</string>
+    <string name="pdf_draws">Draws</string>
+    <string name="pdf_losses">Losses</string>
+    <string name="pdf_clean_sheets">Clean sheets</string>
+    <string name="pdf_win_rate">Win rate</string>
+    <string name="pdf_results">Results</string>
+    <string name="pdf_date">Date and time</string>
+    <string name="pdf_opponent">Opponent</string>
+    <string name="pdf_season_players">Season player totals</string>
+    <string name="pdf_played">Played</string>
+    <string name="pdf_scheduled">Scheduled</string>
+    <string name="pdf_win">Win</string>
+    <string name="pdf_loss">Loss</string>
+    <string name="pdf_draw">Draw</string>
+    <string name="mod_loading_team">Loading your team…</string>
+    <string name="pdf_pending_note">Includes local changes that are still waiting to sync. Verify sync status before sharing.</string>
+    <string name="auth_working">Signing in…</string>
+    <string name="auth_google_setup">Google sign-in is unavailable. Check the phone’s Google account and ask the app owner to verify Firebase and the signing certificate.</string>
+    <string name="auth_network">Could not finish signing in. Check your connection and try again. If you just created an account, use Log in to retry.</string>
+    <string name="auth_email_exists">This email already has an account. Use Log in, or continue with Google if that is how you registered.</string>
+    <string name="auth_invalid_email">Enter a valid email address.</string>
+    <string name="auth_provider_disabled">This sign-in method is disabled. Ask the app owner to enable it in Firebase Authentication.</string>
+    <string name="auth_credentials">Check your email and password, or use your original sign-in method.</string>
+    <string name="auth_try_later">Too many attempts. Please wait before trying again.</string>
+    <string name="preferred_lineup_help">Tap a player to select a starter. Tap Substitute for the bench. Tap the same choice again to remove them. Change Fit, Doubtful or Out only when needed.</string>
+    <string name="preferred_availability">Availability</string>
+    <string name="preferred_squad_role">Squad role</string>
+    <string name="preferred_out_hint">Out players are removed from this lineup. Change availability before selecting them.</string>
+    <string name="review_export_lineup">Export PDF lineup</string>
+    <string name="review_no_lineup">No players have been selected for this lineup yet.</string>
+    <string name="review_confirm_attendance">Confirm attendance</string>
+    <string name="review_attendance_draft">Changes are saved only when you confirm attendance.</string>
+    <string name="review_saving">Saving attendance…</string>
+    <string name="review_discard_title">Discard attendance changes?</string>
+    <string name="review_discard_body">These changes have not been confirmed. Discard them and leave?</string>
+    <string name="review_discard">Discard</string>
+    <string name="review_keep_editing">Keep editing</string>
+    <string name="final_formation_hint">Type digits only: 433 becomes 4-3-3. Lines must total 10 outfield players; the goalkeeper is separate.</string>
+    <string name="final_formation_invalid">Use positive line counts totaling 10, for example 4-3-3.</string>
+
+    <string name="offline_save_failed">Could not save on this phone. Please try again.</string>
+    <string name="offline_connection">You’re offline. Your saved data is still available; changes will sync when you’re connected.</string>
+    <string name="offline_uncertain">The connection dropped while adding this item. Check your online records before adding it again to avoid a duplicate.</string>
+    <string name="msg_no_upcoming_training">No upcoming training session. Add one in Calendar.</string>
+</resources>

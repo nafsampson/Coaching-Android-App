@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Sets the Android window theme. -->
+<resources>
+    <style name="Theme.FormUp" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">#FCF9F8</item>
+        <item name="android:navigationBarColor">#FCF9F8</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

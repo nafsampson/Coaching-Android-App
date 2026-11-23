@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "273072042765",
+    "project_id": "formup-bca5f",
+    "storage_bucket": "formup-bca5f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273072042765:android:a7bff8c9018be726e3b644",
+        "android_client_info": {
+          "package_name": "com.formup.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273072042765-i9qlaip9o1il4djgtgufcjhui8o0pf9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB33lKW82j-wUWL0iq4VYaRplLlHLLiWQ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273072042765-i9qlaip9o1il4djgtgufcjhui8o0pf9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:273072042765:android:a8dddac84ed8e93fe3b644",
+        "android_client_info": {
+          "package_name": "com.nafees.formup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "273072042765-abilplv9ssca8rh5nvcn1mta1e00o258.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nafees.formup",
+            "certificate_hash": "b2d720f4dd0c3c2d50970edf4f6608ae8cc1d0b8"
+          }
+        },
+        {
+          "client_id": "273072042765-i9qlaip9o1il4djgtgufcjhui8o0pf9f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB33lKW82j-wUWL0iq4VYaRplLlHLLiWQ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "273072042765-i9qlaip9o1il4djgtgufcjhui8o0pf9f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

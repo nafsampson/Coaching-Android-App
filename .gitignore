@@ -1,0 +1,48 @@
+# Android Studio / Gradle files
+.gradle/
+build/
+app/build/
+/captures/
+/.externalNativeBuild/
+/.cxx/
+
+# Local configuration files (contains local paths, SDK paths)
+local.properties
+
+# Android Studio project configuration
+.idea/
+*.iml
+
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Android device backup / APKs
+*.apk
+*.aab
+
+*.jks
+*.keystore
+
+# Keep local credentials and deployment profiles out of source control.
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+*.publishsettings
+*.PublishSettings
+*.pubxml
+*.pubxml.user
+**/service-account*.json
+**/serviceAccount*.json
+**/*-firebase-adminsdk-*.json
+**/credentials.json
+**/appsettings.Local.json
+**/appsettings.Production.json

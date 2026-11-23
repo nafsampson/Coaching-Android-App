@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Allows PDF files to be shared through the app file provider. -->
+<paths>
+    <cache-path name="pdf" path="pdf/" />
+</paths>
