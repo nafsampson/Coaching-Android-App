@@ -1,4 +1,5 @@
 # FormUp - Football Coaching Android App
+[![Android CI](https://github.com/nafsampson/Coaching-Android-App/actions/workflows/android-ci.yml/badge.svg?branch=main)](https://github.com/nafsampson/Coaching-Android-App/actions/workflows/android-ci.yml)
 
 **Plan sessions. Prepare the squad. Review performance.**
 
