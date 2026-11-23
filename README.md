@@ -5,6 +5,8 @@
 
 FormUp is a native Android application for managing the everyday responsibilities of a football coach. It brings squad management, training attendance, tactical lineups and performance reporting into one interface, with support for connectivity interruptions.
 
+The backend is maintained in the repo [Coaching-API](https://github.com/nafsampson/Coaching-API), which provides authenticated endpoints, Firestore persistence, synchronisation support and scheduled match reminders.
+
 ## App Preview
 <details open>
 <summary><strong>Explore FormUp - click to expand or collapse</strong></summary>
