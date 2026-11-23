@@ -4,6 +4,78 @@
 
 FormUp is a native Android application for managing the everyday responsibilities of a football coach. It brings squad management, training attendance, tactical lineups and performance reporting into one interface, with support for connectivity interruptions.
 
+## App Preview
+
+### Sign In
+
+Access FormUp using email and password or Google sign-in.
+
+<img src="docs/screenshots/sign-in.jpg" alt="FormUp sign-in screen" width="250">
+
+### Home - Light and Dark Mode
+
+View the next match and quickly access attendance, lineups and statistics.
+
+<table>
+  <tr>
+    <th>Light mode</th>
+    <th>Dark mode</th>
+  </tr>
+  <tr>
+    <td valign="top"><img src="docs/screenshots/home-light.jpg" alt="Home dashboard in light mode" width="250"></td>
+    <td valign="top"><img src="docs/screenshots/home-dark.jpg" alt="Home dashboard in dark mode" width="250"></td>
+  </tr>
+</table>
+
+### Calendar, Team and Lineup
+
+Manage scheduled events, review player availability and prepare the starting eleven.
+
+<table>
+  <tr>
+    <th>Calendar</th>
+    <th>Team</th>
+    <th>Tactical lineup</th>
+  </tr>
+  <tr>
+    <td valign="top"><img src="docs/screenshots/calendar.jpg" alt="Calendar and match actions" width="250"></td>
+    <td valign="top"><img src="docs/screenshots/squad.jpg" alt="Squad management and player availability" width="250"></td>
+    <td valign="top"><img src="docs/screenshots/lineup.jpg" alt="Starting eleven on the tactical pitch" width="250"></td>
+  </tr>
+</table>
+
+### Statistics and Profile
+
+Review team performance, export season information and view the coach profile.
+
+<table>
+  <tr>
+    <th>Season analytics</th>
+    <th>Coach profile</th>
+  </tr>
+  <tr>
+    <td valign="top"><img src="docs/screenshots/analytics.jpg" alt="Team performance and season analytics" width="250"></td>
+    <td valign="top"><img src="docs/screenshots/profile.jpg" alt="Coach profile and season statistics" width="250"></td>
+  </tr>
+</table>
+
+### Preferences and Languages
+
+Personalise the theme, configure reminders and enable biometric app locking. FormUp supports English, Afrikaans and isiXhosa; the screenshots below show English and Afrikaans.
+
+<table>
+  <tr>
+    <th>Light preferences</th>
+    <th>Dark preferences</th>
+    <th>Afrikaans</th>
+  </tr>
+  <tr>
+    <td valign="top"><img src="docs/screenshots/preferences-light.jpg" alt="Preferences in English using light mode" width="250"></td>
+    <td valign="top"><img src="docs/screenshots/preferences-dark.jpg" alt="Preferences in English using dark mode" width="250"></td>
+    <td valign="top"><img src="docs/screenshots/preferences-afrikaans.jpg" alt="Preferences translated into Afrikaans" width="250"></td>
+  </tr>
+</table>
+
 ## Features
 
 - **Coach dashboard:** access upcoming training attendance, the next match, lineup preparation and squad availability.
