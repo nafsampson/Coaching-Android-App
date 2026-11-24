@@ -215,3 +215,7 @@ The Android app uses `google-services.json` to identify its Firebase project and
 Sensitive credentials must remain outside source control, including service-account files, private keys, signing keystores, passwords and deployment credentials. Store backend secrets in the hosting environment and automation secrets in GitHub Actions secrets.
 
 To run an independent deployment of FormUp, configure your own Firebase project and backend using the setup instructions above.
+
+## Contributors
+
+Nafees Sampson, Connor McClure and Thomas Newman.
