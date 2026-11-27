@@ -1,5 +1,9 @@
 # FormUp - Football Coaching Android App
 [![Android CI](https://github.com/nafsampson/Coaching-Android-App/actions/workflows/android-ci.yml/badge.svg?branch=main)](https://github.com/nafsampson/Coaching-Android-App/actions/workflows/android-ci.yml)
+![Kotlin](https://img.shields.io/badge/Language-Kotlin-7F52FF?logo=kotlin&logoColor=white)
+![Jetpack Compose](https://img.shields.io/badge/Android%20UI-Jetpack%20Compose-4285F4?logo=jetpackcompose&logoColor=white)
+![Offline sync with Room and WorkManager](https://img.shields.io/badge/Offline%20sync-Room%20%2B%20WorkManager-3DDC84)
+[![ASP.NET Core API](https://img.shields.io/badge/Backend-ASP.NET%20Core-512BD4?logo=dotnet&logoColor=white)](https://github.com/nafsampson/Coaching-API)
 
 **Plan sessions. Prepare the squad. Review performance.**
 
